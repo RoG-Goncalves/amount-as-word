@@ -1,4 +1,4 @@
-import { digitsSeparate } from './utils/digitsSeparate.js';
+import amountAsWord from './utils/amountAsWord.js';
 
 class App {
   constructor() {
@@ -8,8 +8,9 @@ class App {
   render() {
     document.getElementById('root').innerHTML = `
 
-      <div>Extenso: ${digitsSeparate(prompt('Digite o montante - R$'))} </div>
+      <div>Extenso: ${amountAsWord(prompt('Digite o montante - R$'))} </div>
     `
   }
 }
+export default amountAsWord;
 new App();

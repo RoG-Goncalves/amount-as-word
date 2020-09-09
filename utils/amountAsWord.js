@@ -1,6 +1,6 @@
-import finalAmount from './finalAmount.js'
+import finalAmount from './finalAmount.js';
 
-export const digitsSeparate = (value) => {
+export default function amountAsWord(value) {
   let x = /^((\d{1,3})(\.\d{3})*)(\,\d{2})?$/;
 
   let input = x.exec(value)
