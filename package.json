@@ -1,26 +1,26 @@
 {
-  "name": "writeout",
-  "version": "1.0.0",
-  "description": "A script for writing out any given value in Brazilian Reais (for now, it can write out up to R$ 999.999.999.999,99",
-  "main": "amountAsWord.js",
+  "name": "amount-as-word",
+  "version": "1.0.2",
+  "description": "A JavaScript lib for writing out any given value in Brazilian Reais (for now, it can write out up to R$ 999.999.999.999,99)",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RoG-Goncalves/writeOut.git"
+    "url": "git+https://github.com/RoG-Goncalves/amount-as-word.git"
   },
   "keywords": [
-    "node",
-    "npm",
-    "numeral",
-    "extenso"
+    "extenso",
+    "reais",
+    "valores",
+    "digitos"
   ],
   "author": "Rodrigo Gonçalves",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RoG-Goncalves/writeOut/issues"
+    "url": "https://github.com/RoG-Goncalves/amount-as-word/issues"
   },
-  "homepage": "https://github.com/RoG-Goncalves/writeOut#readme"
+  "homepage": "https://github.com/RoG-Goncalves/amount-as-word#readme"
 }

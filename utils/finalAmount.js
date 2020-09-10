@@ -69,5 +69,5 @@ const billionsAsWord = (value) => {
 export default function finalAmount(value, myCents) {
   console.log(value);
   console.log(myCents);
-  return (`${billionsAsWord(value)} Reais ${myCents == 0 ? '' : 'e'}  ${centsAsWord(myCents)} ${myCents == 0 ? '' : 'centavos'}`)
+  return (`${billionsAsWord(value)} Reais ${myCents == 0 ? '' : 'e'} ${centsAsWord(myCents)} ${myCents == 0 ? '' : 'centavos'}`)
 }
